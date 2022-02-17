@@ -1,0 +1,103 @@
+button {
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: block;
+    background-color: rgb(0, 87, 187) ;
+    color:white;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(2, 62, 131);
+  }
+
+
+.box-img {
+  width: 25%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 1px 2px 2px 1px gray;
+}
+
+.img {
+  background-image: url("https://petkeen.com/wp-content/uploads/2020/07/pxfuel.com_.jpg");
+  width: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+}
+
+.img-description {
+  background-color: rgb(230, 230, 230);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.riddle {
+  padding: 15px;
+  background-color: rgb(230, 230, 230);
+  border-spacing: 5px;
+  font-size: 14px;
+  border-top: 0.5px solid black;
+}
+
+
+.squares {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border: 4px solid rgb(2, 62, 131);
+  background-color: rgb(2, 62, 131);
+  border-radius: 5px;
+}
+
+.gif-box {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  border-radius: 4px;
+  background-size: cover;
+}
+
+.gif-1 {
+  background-image: url("https://i.gifer.com/origin/b8/b842107e63c67d5674d17e0f576274fa_w200.gif");
+}
+
+.gif-2 {
+  background-image: url("https://www.liveabout.com/thmb/9oyhVbEg1OHIPqxsUSe9Pif61U8=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/superdog-treadmill-5af44eb2eb97de003d8c771d.gif");
+}
+
+.gif-3 {
+  background-image: url("https://media0.giphy.com/media/S2S0ZDytY6yDm/200.gif");
+}
+
+.name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 200px;
+  transition: top 0.4s;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.square:hover .name {
+  top: 0;
+}
